@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Medium.ttf);
+}
+
+.nav:hover {
+    text-decoration: underline;
+
+}
+
+.textmini:active {
+    color: red;
+}
+
+
+strong:first-child {
+    font-weight: bold;
+}
+
+.header {
+
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 81px;
+}
+
+#logo {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 117px;
+    top: 27px;
+}
+
+#facebook {
+    position: absolute;
+    width: 8.71px;
+    height: 17px;
+    left: 1004px;
+    top: 32px;
+}
+
+#telegram {
+    position: absolute;
+    width: 14.7px;
+    height: 11.79px;
+    left: 1050.29px;
+    top: 34.95px;
+}
+
+#twitter {
+    position: absolute;
+    width: 16.51px;
+    height: 13.78px;
+    left: 1099.52px;
+    top: 34.21px;
+}
+
+#path {
+    position: absolute;
+    width: 16.51px;
+    height: 12.86px;
+    left: 1149.49px;
+    top: 34.21px;
+}
+
+#resrectangle {
+    position: absolute;
+    width: 113px;
+    height: 43px;
+    left: 1210px;
+    top: 19px;
+    background: #D2E1FF;
+    border-radius: 2px;
+}
+
+#line {
+    position: absolute;
+    width: 1520px;
+    height: 0px;
+    left: 0px;
+    top: 79px;
+    border: 1px solid #D8E3FE;
+}
+
+.nav {
+    position: absolute;
+    height: 15px;
+    top: 33px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #697CA6;
+    text-shadow: 0px 0px 5px #E6E6E6;
+}
+
+#navHome.nav {
+    width: 37px;
+    left: 216px;
+    color: #5E81FE;
+    font-weight: bold;
+}
+
+#navBlog {
+    width: 28px;
+    left: 295px
+}
+
+#navFeatures {
+    width: 55px;
+    left: 365px
+}
+
+#navPricing {
+    width: 43px;
+    left: 462px
+}
+
+#navDoc {
+    width: 96px;
+    left: 547px
+}
+
+#navGet.nav {
+    width: 82px;
+    left: 1230px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3A79FF;
+    text-decoration: none;
+}
+
+
+
+main {
+    position: absolute;
+    width: 1520px;
+    height: 570px;
+    left: 0px;
+    top: 80px;
+
+    top: 80px;
+    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 145px;
+    left: 0px;
+    top: 650px;
+    background: #FFFFFF;
+}
+
+
+#maintext {
+    position: absolute;
+    width: 583px;
+    height: 60px;
+    left: 429px;
+    top: 200px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3D4F9F;
+}
+
+.textmini {
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    left: 673px;
+    top: 172px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #3D4F9F;
+}
+
+.text3 {
+    position: absolute;
+    width: 502px;
+    height: 78px;
+    left: 469px;
+    top: 288px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #8D96BD;
+}
+
+.footer {
+    position: absolute;
+    width: 116.59px;
+    height: 25px;
+    top: 58px;
+}
+
+#bitbucket {
+    left: 276px;
+}
+
+#watch {
+    left: 469.08px;
+}
+
+#facefooter {
+    left: 662.17px;
+}
+
+#atlassian {
+    left: 854.34px;
+}
+
+#audi {
+    left: 1047.42px;
+}
