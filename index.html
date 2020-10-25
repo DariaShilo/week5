@@ -12,40 +12,69 @@
         background-color: gray;
         border: 1px solid green;
         box-sizing: border-box;
-        text-align: center;
+        text-align: center;  }
 
-
-      }
       .main{
         display: flex;
 border: 1px solid red;
 align-items: stretch;
 height: 30vw;
-text-align: center;
+text-align: center;}
 
- 
-       }
        .section{
-         border:1px solid green;
-       }
+         border:1px solid green; 
+         flex-wrap: wrap;}
+
        #section1{flex-basis: 70%;
-       background-color: salmon;}
-       #section2{flex-basis: 30%; background-color: springgreen;}
+       background-color: salmon; 
+       align-items: flex-end;
+       }
+
+       #section2{flex-basis: 30%; 
+       background-color: springgreen;}
+       
+
+      .block{box-sizing: border-box; 
+    border: 1px solid black;
+    }
+
+    .block2{box-sizing: border-box;
+     100%; border: 1px solid black;}
+
       .footer{display: flex;
         height: 6vw;
         border: 1px solid rgb(235, 19, 199);
-        text-align: center;
-    }
+        text-align: center; 
+        justify-content: space-around;
+        background-color: thistle;
+        align-items: center ;  }
+
+    .aside{display: flex; 
+    border: 1px solid red;  
+    flex-wrap: wrap; 
+    flex-basis: 20%; 
+    background-color: tan; 
+    height: 5vw;}
+
+  
+
         </style>
 </head>
 <header class="header"> Шапка профиля </header>
 <main class="main">
-  <section class="section" id="section1">
-Основная часть
-
+  <section class="section" id="section1">Основная часть
+<aside class="block"></aside>
+<aside class="block">
+</aside>
+<aside class="block2"></aside>
   </section> 
   <section class="section" id="section2"> Боковая часть</section>
 </main>
-<footer class="footer"> подвал</footer>
+<footer class="footer"> 
+  <aside class="aside">Секция 1</aside>
+  <aside class="aside">Секция 2</aside>
+  <aside class="aside" >Секция 3</aside>
+  <aside class="aside" >Секция 4</aside>
+  </footer>
 </body>
 </html>
